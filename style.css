@@ -1,0 +1,1703 @@
+:root {
+
+    --aColor : #c03f38;
+    --aHover : #cd2653;
+    --font1 :  'Roboto', sans-serif;
+    --font2 :  'Open Sans', sans-serif;
+    --aExplore : #ba0101;
+
+}
+
+.navbar {
+    padding: 15px 10px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 999;
+    
+}
+.navbar .container-fluid {
+    padding: 0px 15px;
+}
+
+.inner-navbar .navbar-nav {
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar-nav .nav-item {
+    padding: 0px 24px;
+    margin-bottom: 0px;
+}
+
+.nav-item .nav-link {
+
+    color: #010101;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+
+}
+.nav-item .delivery {
+    color: var(--aColor);
+}
+
+.nav-item .nav-link:hover {
+
+    color: var(--aHover);
+}
+.vertical-navbar,
+.responsive-navbar {
+    display: none;
+}
+/*  section 4 style links */
+
+.col .shop-link {
+
+    position: absolute;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #dc1d48;
+    padding: 6px 15px;
+    border-radius: 5px;
+    top: 62%;
+    left: 68%;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.col .shop-link:hover {
+    background-color: #b73956;
+}
+
+/* tehzeeb biscuit section */
+
+.Tehzeeb-biscuit {
+
+    background-color: #f6b99d;
+    color: white;
+    padding-top: 70px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Tehzeeb-biscuit-content .royal {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.Tehzeeb-biscuit-content .divider {
+    width: 340px;
+    margin: auto;
+    height: 2px;
+    background-color: white;
+    opacity: 1;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.Tehzeeb-biscuit-content .royalty {
+    font-size: 27px;
+    letter-spacing: 4px;
+    margin-bottom: 35px;
+}
+
+.Tehzeeb-biscuit-content .explore {
+    color: var(--aExplore);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 21px;
+    font-family: var(--font1);
+}
+.col .Tehzeeb-biscuit-img {
+    padding-top: 50px;
+    max-width: 80%;
+    margin: auto;
+}
+.Tehzeeb-biscuit-img .Biscuit-list {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.Biscuit-list .biscuit-item {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.biscuit-item span {
+    text-align: center;
+    display: block;
+    font-family: var(--font1);
+    font-size: 19px;
+    padding: 15px 0px;
+}
+
+.Time-to-meet {
+
+    background-color: #e8cba9;
+    text-align: center;
+    color: white;
+    padding: 95px 0px;
+}
+
+.col .Classical-baking {
+
+    border: 1px solid white;
+    max-width: 84%;
+    margin: auto;
+}
+
+.Classical-baking .classical-baking-img {
+    position: relative;
+    bottom: 46px;
+}
+
+.Classical-baking .culture {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 60px;
+
+}
+
+.Classical-baking .divider {
+
+    width: 200px;
+    margin: auto;
+    height: 1.5px;
+    background-color: white;
+    opacity: 1;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+.Classical-baking .tehzeeb-home-img {
+
+    position: relative;
+    top: 85px;
+
+}
+
+.Bread {
+    background-color: #eabbb4;
+    color: #a7552d;
+    padding: 100px 0px;
+}
+
+.Bread .row {
+    padding: 30px 0px;
+}
+
+.col-sm-7 .Bread-content {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.Bread-content .bread {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.Bread-content .divider {
+    width: 330px;
+    margin: auto;
+    height: 1.5px;
+    background-color: white;
+    color: white;
+    opacity: 1;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.Bread-content .baking {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.Bread-content .explore {
+    color: #ba0101;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.Bread-img img {
+    width: 490px;
+    float: right;
+}
+
+.Donut {
+
+    background-color: #f6b99d;
+    color: #a7552d;
+    font-family: 'Open Sans', sans-serif;
+    padding: 80px 0px;
+}
+
+.col .Donuts-content {
+    text-align: center;
+    align-items: center;
+    padding: 90px 0px;
+}
+
+.Donuts-content .donuts {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.Donuts-content .divider {
+    width: 330px;
+    margin: auto;
+    height: 1.5px;
+    background-color: white;
+    color: white;
+    opacity: 1;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.Donuts-content .flavour {
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.Donuts-content .explore {
+    color: #ba0101;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 21px;
+
+}
+
+.Donuts-content .donut-img-1 {
+
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    width: 310px;
+}
+
+.Donuts-content .donut-img-2 {
+    position: absolute;
+    left: 5px;
+    width: 330px;
+    top: 67%;
+}
+
+.Snack {
+    background-color: #e8cba9;
+    color: #a7552d;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 60px 0px;
+}
+
+.col-sm-7 .Snacks-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Snacks-content .Samosa {
+    font-size: 41px;
+    margin-bottom: 20px;
+}
+
+.Snacks-content .divider {
+    width: 330px;
+    margin: auto;
+    height: 1.5px;
+    background-color: white;
+    color: white;
+    opacity: 1;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.Snacks-content .baking {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+.Snacks-content .explore {
+    color: #ba0101;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.Snack-img img {
+    width: 470px;
+    position: relative;
+    top: 60px;
+}
+
+.Pastry {
+    background-color: #eabbb4;
+    color: #a7552d;
+    text-align: center;
+    padding: 50px 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.Pastry-content .pastry {
+
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.Pastry-content .divider {
+
+    width: 330px;
+    margin: auto;
+    height: 1.5px;
+    background-color: white;
+    color: white;
+    opacity: 1;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.Pastry-content .artisan {
+
+    font-size: 25px;
+    color: white;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.Pastry-content .explore {
+    color: #ba0101;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.Pastry-img img {
+    width: 580px;
+}
+
+
+.col .lists {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+    padding: 0px !important;
+}
+
+.lists .item {
+    list-style: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0px !important;
+    margin-bottom: 3px;
+}
+
+.item .Nimko {
+    background-color: #f1a180;
+    padding: 50px 0px 70px 0px;
+}
+
+.Nimko .nimko-text,
+.Puffs .puffs-text,
+.Salad .salad-text,
+.Pizza .pizza-text {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.links img {
+    width: 270px;
+    margin-bottom: 35px;
+    display: inline-block;
+}
+
+.Nimko .explore,
+.Puffs .explore,
+.Salad .explore,
+.Pizza .explore {
+    color: #4bac4c;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.item .Puffs {
+    background-color: #f6b99d;
+    padding: 50px 0px 70px 0px;
+
+}
+
+.item .Salad {
+    background-color: #f6b99d;
+    padding: 50px 0px 70px 0px;
+}
+
+.Salad .fruits,
+.Pizza .chesse,
+.Puffs .salt,
+.Nimko .spices {
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+
+.item .Pizza {
+    background-color: #f1a180;
+    padding: 50px 0px 70px 0px;
+}
+
+.col .text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 70%;
+}
+.media-icons {
+    width: 30%;
+}
+.media-icons  .icon-item {
+    list-style: none;
+}
+.icon-link img {
+    width: 30px;
+}
+
+
+.footer-1 {
+    background-color: 	#f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+.categorie-item .head,
+.service-item .head,
+.company-item .head {
+    font-size: 14px;
+    color: 	#000;
+    padding-bottom: 15px;
+    font-weight: 600;
+
+}
+.footer-1 .foo {
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    padding: 0px 100px;
+}
+.categorie-item .categorie-list,
+.company-item .company-list {
+    list-style-type: none;
+    padding: 10px 0px;
+}
+.categorie-list a,
+.company-list a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+    font-size: 14px;
+}
+.categorie-list a:hover,
+.company-list a:hover {
+    color: var(--aHover);
+}
+.service-item .service-list {
+    list-style-type: none;
+}
+.service-list a {
+    text-decoration: none;
+    color: 	#4bac4c;
+    font-family: 'Times New Roman', Times, serif;
+}
+.service-list a:hover {
+    color: var(--aHover);
+}
+
+.footer-dropdown {
+    display: none;
+}
+
+.col .copyright {
+    font-family: var(--font1);
+    font-size: 16px;
+    color: #585858;
+    float: left;
+    
+}
+.copyright a {
+    color: black;
+    text-decoration: none;
+    
+}
+.copyright a:hover {
+    color: var(--aHover);
+}
+.col .media-icon {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) and (min-width:992px) {
+    .navbar-nav .nav-item {
+        padding: 0px 17px;
+    }
+    .nav-item .nav-link {
+        font-size: 14px;
+    }
+    .col .shop-link {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    /* tehzeeb biscuit */
+
+    .Tehzeeb-biscuit-content .royal {
+        font-size: 42px;
+    }
+    .Tehzeeb-biscuit-content .divider {
+        width: 310px;
+    }
+    .Tehzeeb-biscuit-content .royalty {
+        font-size: 26px;
+        letter-spacing: 3px;
+    }
+    .Tehzeeb-biscuit-content .explore {
+        font-size: 21px;
+    }
+    .col .Tehzeeb-biscuit-img {
+        max-width: 88%;
+    }
+    .biscuit-item span {
+        font-size: 19px;
+    }
+    .col .Classical-baking {
+        max-width: 90%;
+    }
+
+    .Classical-baking .culture {
+        padding: 0px 60px;
+        font-size: 17px;
+    }
+
+    .Bread {
+        padding: 70px 0px;
+    }
+
+    .Donut {
+        padding: 80px 0px;
+    }
+
+    .col .Donuts-content {
+        padding: 80px 0px;
+    }
+
+    .Donuts-content .donuts {
+        font-size: 42px;
+    }
+
+    .Donuts-content .divider {
+        width: 300px;
+    }
+
+    .Donuts-content .flavour {
+        font-size: 23px;
+    }
+
+    .Donuts-content .explore {
+        font-size: 20px;
+    }
+
+    .Donuts-content .donut-img-1 {
+        width: 260px;
+    }
+
+    .Donuts-content .donut-img-2 {
+        width: 270px;
+        top: 70.5%;
+    }
+
+    .Snack {
+        padding: 40px 0px;
+    }
+
+    .Snacks-content .Samosa {
+        font-size: 37px;
+    }
+
+    .Snacks-content .divider {
+        width: 300px;
+    }
+
+    .Snacks-content .baking {
+        font-size: 22px;
+    }
+
+    .Snacks-content .explore {
+        font-size: 19px;
+    }
+
+    .Snack-img img {
+        width: 400px;
+        top: 38px;
+    }
+
+    .Pastry-content .pastry {
+        font-size: 41px;
+    }
+
+    .Pastry-content .divider {
+        width: 310px;
+    }
+
+    .Pastry-content .artisan {
+
+        font-size: 22px;
+    }
+
+    .Pastry-content .explore {
+        font-size: 22px;
+    }
+
+    .Pastry-img img {
+        width: 520px;
+    }
+    .Nimko .nimko-text,
+    .Puffs .puffs-text,
+    .Salad .salad-text,
+    .Pizza .pizza-text {
+        font-size: 42px;
+    }
+    .links img {
+        width: 240px;
+    }
+
+    .Nimko .explore,
+    .Puffs .explore,
+    .Salad .explore,
+    .Pizza .explore {
+        font-size: 29px;
+        
+    }
+    
+.Salad .fruits,
+.Pizza .chesse,
+.Puffs .salt,
+.Nimko .spices {
+    font-size: 21px;
+    letter-spacing: 3px;
+
+}
+}
+
+@media (max-width:992px) and (min-width:768px) {
+    .navbar-nav .nav-item {
+        padding: 0px 8px;
+    }
+    .nav-item .nav-link {
+        font-size: 13px;
+    }
+
+    .col .shop-link {
+        font-size: 15px;
+        padding: 5px 8px;
+    }
+
+    .Tehzeeb-biscuit {
+        padding-top: 70px;
+    }
+    .Tehzeeb-biscuit-content .royal {
+        font-size: 40px;
+    }
+    .Tehzeeb-biscuit-content .divider {
+        width: 290px;
+    }
+    .Tehzeeb-biscuit-content .royalty {
+        font-size: 23px;
+        letter-spacing: 3px;
+    }
+    .Tehzeeb-biscuit-content .explore {
+        font-size: 20px;
+    }
+    .col .Tehzeeb-biscuit-img {
+        max-width: 96%;
+    }
+    .Biscuit-list .biscuit-item {
+        padding: 5px;
+    }
+    .biscuit-item span {
+        font-size: 18px;
+    }
+
+    .col .Classical-baking {
+        max-width: 95%;
+    }
+
+    .Classical-baking .culture {
+        font-size: 17px;
+        padding: 0px 50px;
+    }
+
+    .Bread {
+        padding: 40px 0px;
+    }
+
+    .Breads-content .Snack {
+        font-size: 41px;
+        margin-bottom: 20px;
+    }
+
+    .Breads-content .divider {
+        width: 300px;
+    }
+
+    .Breads-content .baking {
+        font-size: 22px;
+    }
+
+    .Breads-content .explore {
+
+        font-size: 21px;
+    }
+
+    .Donut {
+        padding: 50px 0px;
+    }
+
+    .col .Donuts-content {
+        padding: 50px 0px;
+    }
+
+    .Donuts-content .donuts {
+        font-size: 37px;
+    }
+
+    .Donuts-content .divider {
+        width: 260px;
+    }
+
+    .Donuts-content .flavour {
+        font-size: 19px;
+    }
+
+    .Donuts-content .explore {
+        font-size: 19px;
+    }
+
+    .Donuts-content .donut-img-1 {
+        width: 210px;
+    }
+
+    .Donuts-content .donut-img-2 {
+        width: 210px;
+        top: 68.5%;
+    }
+
+    .Snack {
+        padding: 35px 0px;
+    }
+
+    .Snacks-content .Samosa {
+        font-size: 33px;
+    }
+
+    .Snacks-content .divider {
+        width: 250px;
+    }
+
+    .Snacks-content .baking {
+        font-size: 19px;
+    }
+
+    .Snacks-content .explore {
+        font-size: 18px;
+    }
+
+    .Snack-img img {
+        top: 32px;
+    }
+
+    .Pastry-content .pastry {
+        font-size: 36px;
+    }
+
+    .Pastry {
+        padding-bottom: 30px;
+    }
+
+    .Pastry-content .divider {
+        width: 270px;
+    }
+    .Pastry-content .artisan {
+        font-size: 21px;
+    }
+
+    .Pastry-content .explore {
+        font-size: 19px;
+    }
+
+    .Pastry-img img {
+        width: 470px;
+    }
+    .Nimko .nimko-text,
+    .Puffs .puffs-text,
+    .Salad .salad-text,
+    .Pizza .pizza-text {
+        font-size: 37px;
+    }
+    .links img {
+        width: 200px;
+    }
+
+    .Nimko .explore,
+    .Puffs .explore,
+    .Salad .explore,
+    .Pizza .explore {
+        font-size: 25px;
+        
+    }
+    
+.Salad .fruits,
+.Pizza .chesse,
+.Puffs .salt,
+.Nimko .spices {
+    font-size: 19px;
+    letter-spacing: 2px;
+
+}
+
+
+
+}
+
+
+
+
+
+@media (max-width:768px) and (min-width:250px) {
+
+    .navbar {
+        display: none;
+    }
+    .vertical-navbar,
+    .responsive-navbar {
+        display: block;
+    }
+    .responsive-navbar {
+        padding: 10px 12px;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background-color: white;
+    }
+    .responsive-navbar .row {
+
+        align-items: center;
+    }
+    .delivery a {
+        text-decoration: none;
+        color: var(--aColor);
+        font-weight: 900;
+        font-family: var(--font1);
+        font-size: 17px;
+    }
+
+    .vertical-navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        width: 256px;
+        z-index: 999;
+        transition: transform 1.5s ease;
+        transform: translateX(0%);
+         overflow-x: auto;
+        height: 100%; 
+        border: 1px solid #dfdfdf;
+    }
+
+    .navbar-2 {
+
+        transform: translateX(-100%);
+    }
+
+    .vertical-navbar .nav {
+
+        flex-direction: column;
+    }
+
+    .nav .nav-item {
+
+        border-bottom: 1px solid #dfdfdf;
+        padding: 10px 15px;
+    }
+
+    .nav-item .nav-link {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .nav .close {
+        position: absolute;
+        right: 10px;
+        top: 12px;
+        width: 23px;
+        border-radius: 50%;
+        padding: 5px;
+        background-color: #fae0e0;
+        display: block;
+    }
+
+    .col .shop-link {
+        font-size: 13px;
+        padding: 5px 7px;
+    }
+
+    .Tehzeeb-biscuit {
+        padding-top: 50px;
+    }
+    .Tehzeeb-biscuit-content .royal {
+        font-size: 35px;
+        margin-bottom: 23px;
+    }
+    .Tehzeeb-biscuit-content .divider {
+        width: 250px;
+    }
+    .Tehzeeb-biscuit-content .royalty {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    .Tehzeeb-biscuit-content .explore {
+        font-size: 20px;
+    }
+    .col .Tehzeeb-biscuit-img {
+        max-width: 100%;
+    }
+    .biscuit-item span {
+        font-size: 15px;
+    }
+
+    .col .Classical-baking {
+        max-width: 95%;
+    }
+
+    .Classical-baking .culture {
+        font-size: 16px;
+        padding: 0px 60px;
+
+    }
+
+    .Bread {
+        padding: 40px 0px;
+    }
+
+    .Bread-content .bread {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .Bread-content .divider {
+        width: 250px;
+        border-radius: 5px;
+    }
+
+    .Bread-content .baking {
+        font-size: 18px;
+    }
+
+    .Bread-content .explore {
+        font-size: 18px;
+    }
+
+    .Donut {
+        padding: 40px 0px;
+    }
+
+    .col .Donuts-content {
+        padding: 40px 0px;
+    }
+
+    .Donuts-content .donuts {
+        font-size: 33px;
+    }
+
+    .Donuts-content .divider {
+        width: 200px;
+    }
+
+    .Donuts-content .flavour {
+        font-size: 16px;
+    }
+
+    .Donuts-content .explore {
+        font-size: 17px;
+    }
+
+    .Donuts-content .donut-img-1 {
+        right: 4px;
+        top: 10px;
+        width: 160px;
+    }
+
+    .Donuts-content .donut-img-2 {
+        width: 160px;
+        top: 72.5%;
+    }
+
+    .Snack {
+        padding: 30px 0px;
+    }
+
+    .Snacks-content .Samosa {
+        font-size: 29px;
+    }
+
+    .Snacks-content .divider {
+        width: 200px;
+    }
+
+    .Snacks-content .baking {
+        font-size: 18px;
+    }
+
+    .Snacks-content .explore {
+        font-size: 17px;
+    }
+
+    .Snack-img img {
+        top: 27px;
+    }
+
+    .Pastry {
+        padding-bottom: 20px;
+    }
+
+    .Pastry-content .pastry {
+        font-size: 27px;
+    }
+
+    .Pastry-content .divider {
+        width: 220px;
+    }
+
+    .Pastry-content .artisan {
+
+        font-size: 20px;
+    }
+
+    .Pastry-content .explore {
+        font-size: 18px;
+    }
+
+    .Pastry-img img {
+        width: 400px;
+    }
+    .Nimko .nimko-text,
+    .Puffs .puffs-text,
+    .Salad .salad-text,
+    .Pizza .pizza-text {
+        font-size: 33px;
+    }
+    .links img {
+        width: 170px;
+    }
+
+    .Nimko .explore,
+    .Puffs .explore,
+    .Salad .explore,
+    .Pizza .explore {
+        font-size: 20px;
+        
+    }
+    
+.Salad .fruits,
+.Pizza .chesse,
+.Puffs .salt,
+.Nimko .spices {
+    font-size: 17px;
+    letter-spacing: 0px;
+
+}
+.col .text {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+.media-icons {
+    width: 100%;
+    justify-content: center !important;
+}
+.media-icons  .icon-item {
+    list-style: none;
+    padding: 3px;
+}
+.icon-link img {
+    width: 30px;
+}
+.categorie-list a,
+.company-list a {
+    font-size: 13px;
+}
+.footer-1 .foo {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    padding: 0px 30px;
+}
+
+
+.col .copyright {
+    font-family: var(--font1);
+    font-size: 16px;
+    color: #585858;
+    float: none;
+    padding: 5px;
+    
+}
+.copyright a:hover {
+    color: var(--aHover);
+}
+.col .media-icon {
+    float: none;
+    padding:5px;
+}
+
+
+}
+
+
+@media (max-width:576px) and (min-width:250px) {
+
+    .col .shop-link {
+        font-size: 14px;
+        padding: 3px 10px;
+        left: 38%;
+        top: 25%;
+    }
+
+    .Tehzeeb-biscuit {
+        padding-top: 50px;
+    }
+
+    .Tehzeeb-biscuit-img .Biscuit-list {
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .Tehzeeb-biscuit-content .royal {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .Tehzeeb-biscuit-content .divider {
+        width: 190px;
+    }
+    .Tehzeeb-biscuit-content .royalty {
+        font-size: 19px;
+        letter-spacing: 2px;
+    }
+    .Tehzeeb-biscuit-content .explore {
+        font-size: 18px;
+    }
+    .col .Tehzeeb-biscuit-img {
+        max-width: 100%;
+    }
+    .Biscuit-list .biscuit-item {
+        padding: 5px;
+    }
+    .biscuit-item span {
+        font-size: 17px;
+    }
+
+    .Time-to-meet {
+        padding: 60px 0px;
+    }
+
+    .col .Classical-baking {
+        max-width: 92%;
+    }
+
+    .Classical-baking .classical-baking-img {
+        bottom: 35px;
+    }
+    .Classical-baking .culture {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+    .classical-baking-img img {
+        width: 230px;
+    }
+
+    .Classical-baking .tehzeeb-home-img {
+        top: 38px;
+    }
+
+    .tehzeeb-home-img img {
+        width: 250px;
+    }
+    .Bread {
+        padding: 5px 0px 40px 0px;
+    }
+
+    .Bread .row {
+        padding: 0px;
+    }
+
+    .col-12 .Bread-content {
+        margin: 50px 0px;
+    }
+
+    .Bread-content .bread {
+        font-size: 37px;
+        margin-bottom: 20px;
+    }
+
+    .Bread-content .divider {
+        width: 250px;
+    }
+
+    .Bread-content .baking {
+        font-size: 20px;
+    }
+
+    .Bread-content .explore {
+        color: #ba0101;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 19px;
+    }
+
+    .col-12 .Bread-img {
+        padding-top: 20px;
+    }
+
+    .Bread-img img {
+        width: 300px;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    .Donut {
+        padding: 40px 0px;
+    }
+
+    .col .Donuts-content {
+        padding: 0px;
+    }
+
+    .Donuts-content .donuts {
+        font-size: 37px;
+    }
+
+    .Donuts-content .divider {
+        width: 200px;
+    }
+
+    .Donuts-content .flavour {
+        font-size: 18px;
+    }
+
+    .Donuts-content .explore {
+        display: none;
+    }
+
+    .Donuts-content .donut-img-1 {
+        position: static;
+        width: 230px;
+        padding-top: 10px;
+    }
+
+    .hidden .explore {
+        color: #ba0101;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 20px;
+        display: block;
+        padding-top: 40px;
+    }
+
+    .Donuts-content .donut-img-2 {
+        display: none;
+    }
+
+    .Snack {
+        padding: 40px 0px;
+    }
+
+    .Snacks-content .Samosa {
+        font-size: 32px;
+    }
+
+    .Snacks-content .divider {
+        width: 170px;
+    }
+
+    .Snacks-content .baking {
+        font-size: 18px;
+    }
+
+    .Snacks-content .explore {
+        font-size: 17px;
+    }
+
+    .Snack-img img {
+        top: 37px;
+        width: 300px;
+    }
+
+    .Pastry-content .pastry {
+        font-size: 30px;
+    }
+
+    .Pastry-content .divider {
+        width: 200px;
+    }
+
+    .Pastry-content .artisan {
+
+        font-size: 21px;
+    }
+
+    .Pastry-content .explore {
+        display: none;
+    }
+
+    .Pastry-img img {
+        width: 320px;
+    }
+
+    .hidden .explore {
+        color: #ba0101;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+
+    }
+    .col .lists {
+        grid-template-columns: repeat(1, 100%);
+    } 
+
+    .Nimko .nimko-text,
+    .Puffs .puffs-text,
+    .Salad .salad-text,
+    .Pizza .pizza-text {
+        font-size: 37px;
+    }
+    .links img {
+        width: 250px;
+    }
+    .Nimko .explore,
+    .Puffs .explore,
+    .Salad .explore,
+    .Pizza .explore {
+        font-size: 21px;
+        
+    }
+    
+.Salad .fruits,
+.Pizza .chesse,
+.Puffs .salt,
+.Nimko .spices {
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+.footer-1 {
+    display: none;
+}
+.footer-dropdown {
+    background-color: 	#f3f3f3;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+.categories .head, .company .head,
+.services .head {
+    font-size: 16px;
+    color: 	#000;
+    font-weight: 500;
+}
+.categories .bi, .company .bi,
+.services .bi {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+}
+.col .dropdown-menus {
+    display: none;
+}
+.dropdown-menus li {
+    padding: 10px;
+}
+li .dropdown-items {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+    font-size: 14px;
+}
+.categories .bi-chevron-up,
+.company .bi-chevron-up,
+.services .bi-chevron-up {
+    display: none;
+}
+
+}
+
+
+
+
+@media (max-width:360px) and (min-width:250px) {
+
+    .delivery a {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    .col .shop-link {
+        font-size: 12px;
+        padding: 3px 10px;
+        left: 34%;
+        top: 24%;
+    }
+
+    .Tehzeeb-biscuit {
+        padding-top: 40px;
+    }
+
+    .Tehzeeb-biscuit-img ul {
+        grid-template-columns: repeat(2, 50%);
+    }
+    .Tehzeeb-biscuit-content .royal {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .Tehzeeb-biscuit-content .divider {
+        width: 100px;
+    }
+
+    .Tehzeeb-biscuit-content .royalty {
+        font-size: 14px;
+        
+    }
+    .Tehzeeb-biscuit-content .explore {
+        font-size: 16px;
+    }
+    .col .Tehzeeb-biscuit-img {
+        max-width: 95%;
+    }
+    .Biscuit-list .biscuit-item {
+        padding: 0px;
+    }
+    .biscuit-item span {
+        font-size: 15px;
+        padding: 20px 0px;
+    }
+
+    .Time-to-meet {
+        padding: 60px 0px;
+    }
+
+    .col .Classical-baking {
+        max-width: 92%;
+    }
+
+    .Classical-baking .classical-baking-img {
+        bottom: 35px;
+    }
+    .Classical-baking .culture {
+        font-size: 14px;
+        padding: 0px 20px;
+        position: relative;
+        top: -15px;
+    }
+    .classical-baking-img img {
+        width: 180px;
+    }
+    .Classical-baking .tehzeeb-home-img {
+        top: 35px;
+    }
+    .tehzeeb-home-img img {
+        width: 180px;
+    }
+    .Classical-baking .divider {
+        width: 140px;
+    }
+
+    .Bread {
+        padding: 40px 0px;
+    }
+
+    .col-12 .Bread-content {
+        text-align: center;
+        margin: 0px 0px 50px 0px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .Bread-content .bread {
+        font-size: 31px;
+        margin-bottom: 20px;
+    }
+
+    .Bread-content .divider {
+        width: 150px;
+        margin: auto;
+        height: 1.5px;
+        background-color: white;
+        color: white;
+        opacity: 1;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+
+    .Bread-content .baking {
+        font-size: 16px;
+        color: white;
+        margin-bottom: 35px;
+        letter-spacing: 1px;
+    }
+
+    .Bread-content .explore {
+        color: #ba0101;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    .Bread-img img {
+        width: 200px;
+    }
+
+    .Donut {
+        padding: 40px 0px;
+    }
+
+    .col .Donuts-content {
+        padding: 0px;
+    }
+
+    .Donuts-content .donuts {
+        font-size: 31px;
+    }
+
+    .Donuts-content .divider {
+        width: 100px;
+    }
+
+    .Donuts-content .flavour {
+        font-size: 12px;
+    }
+
+    .Donuts-content .explore {
+        display: none;
+    }
+
+    .Donuts-content .donut-img-1 {
+        position: static;
+        width: 170px;
+        padding-top: 10px;
+    }
+
+    .hidden .explore {
+        color: #ba0101;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 19px;
+        display: block;
+        padding-top: 20px;
+        
+    }
+
+    .Donuts-content .donut-img-2 {
+        display: none;
+    }
+
+    .Snack {
+        padding: 30px 0px;
+    }
+
+    .Snacks-content .Samosa {
+        font-size: 27px;
+    }
+
+    .Snacks-content .divider {
+        width: 140px;
+    }
+
+    .Snacks-content .baking {
+        font-size: 14px;
+    }
+
+    .Snacks-content .explore {
+        font-size: 16px;
+    }
+
+    .Snack-img img {
+        top: 28px;
+        width: 225px;
+    }
+
+    .Pastry-content .pastry {
+        font-size: 21px;
+    }
+
+    .Pastry-content .divider {
+        width: 150px;
+    }
+
+    .Pastry-content .artisan {
+
+        font-size: 19px;
+    }
+
+    .Pastry-content .explore {
+        font-size: 17px;
+        display: none;
+    }
+
+    .Pastry-img img {
+        width: 235px;
+    }
+
+    .hidden .explore {
+        color: #ba0101;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 17px;
+    }
+    .col .lists {
+        grid-template-columns: repeat(1, 100%);
+    } 
+
+    .Nimko .nimko-text,
+    .Puffs .puffs-text,
+    .Salad .salad-text,
+    .Pizza .pizza-text {
+        font-size: 32px;
+    }
+    .links img {
+        width: 200px;
+    }
+    .Nimko .explore,
+    .Puffs .explore,
+    .Salad .explore,
+    .Pizza .explore {
+        font-size: 20px;
+        
+    }
+    
+.Salad .fruits,
+.Pizza .chesse,
+.Puffs .salt,
+.Nimko .spices {
+    font-size: 12px;
+    
+}
+
+}
